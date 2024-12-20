@@ -1,0 +1,1 @@
+This repository contains an example of a common unsafe code error in Rust.  The code demonstrates how modifying a vector's contents via a raw pointer can result in undefined behavior if the vector is resized or reallocated. The solution provides a safer alternative using safe Rust methods to avoid these issues.
